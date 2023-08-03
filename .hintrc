@@ -1,0 +1,40 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-align: -webkit-match-parent",
+          "-webkit-text-size-adjust",
+          "text-decoration-skip-ink",
+          "-webkit-tap-highlight-color",
+          "text-underline-offset",
+          "overflow-anchor",
+          "accent-color",
+          "-webkit-overflow-scrolling",
+          "overflow-clip-margin",
+          "user-select"
+        ]
+      }
+    ],
+    "css-prefix-order": "off",
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ]
+  }
+}
